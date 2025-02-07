@@ -27,7 +27,7 @@ func init() {
 	flag.StringVar(&OutputDirectory, "output", "./bin", "Directory to output  build files")
 	flag.StringVar(&Configuration, "config", "debug", "Configuration to build the project under (Debug/Release)")
 	flag.StringVar(&Architecture, "arch", "amd64", "Architecture to build application under")
-	flag.StringVar(&OperatingSystem, "os", "linux", "Operating systme to build application under")
+	flag.StringVar(&OperatingSystem, "os", "linux", "Operating system to build application under")
 	flag.BoolVar(&Publish, "publish", false, "Enable publish mode in build")
 	flag.Parse()
 }
